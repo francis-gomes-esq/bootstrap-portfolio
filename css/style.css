@@ -5,10 +5,10 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Anton', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 p {
-	font-family: 'Jura', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Navigation bar */
@@ -76,12 +76,16 @@ p {
 	justify-content: space-between;
 	max-width: 100%; /* Adjust the max-width as needed */
 	margin: 0 auto;
-	background-color: lightblue;
+	background-color: #a7acaf;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	height: 500px;
 	font-family: monospace;
+}
+
+.jumbotron p {
+	margin-top: -16px;
 }
 
 .project {
@@ -107,7 +111,7 @@ footer {
 }
 .card {
 	margin: 0 auto;
-	background-color: aqua;
+	background-color: #efe0db;
 }
 .signUp form {
 	margin: 35px auto;
