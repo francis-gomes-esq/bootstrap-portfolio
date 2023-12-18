@@ -42,7 +42,7 @@
 					<img src="images/omniscient.png" alt="An eye-shaped icon"/>  
 					Bootstrap Portfolio</a  
 				> 
-				<button
+			<!--	<button
 					class="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
@@ -52,7 +52,7 @@
 					aria-label="Toggle navigation"
 				>
 					<span class="navbar-toggler-icon"></span>
-				</button>
+				</button> -->
 				<div
 					class="collapse navbar-collapse"
 					id="navbarSupportedContent"
@@ -90,7 +90,7 @@
   <div class="content-wrapper">
     <img src="./images/francis-01.jpg" alt="A profile picture of a man wearing a white shirt, jumper and a pair of silver headphones" class="profile-picture">
     <div class="text-content">
-      <h1 class="display-5 fw-bold">Francis</h1>
+      <h1 id="about-me" class="display-5 fw-bold">Francis</h1>
       <p class="lead">Front-End Web Developer</p>
       <hr class="my-4">
       <p>Greetings! Step into the realm of creativity and innovation as you explore my digital domain. I'm not just your average web developer—I'm a passionate creator on a mission to transform ideas into visually mesmerising and exceptionally functional websites. Armed with a robust foundation in HTML and CSS and a keen eye for design, I bring a dynamic fusion of technical prowess and aesthetic finesse to every project I undertake.
@@ -107,7 +107,7 @@
 	<h2 id="projects" class="project">My Projects</h2>
 	<div class="row">
 		<!-- Card 1 -->
-		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+		<div class="cardContainer col-lg-4 col-md-4 col-sm-12 d-flex align-items-stretch">
 			<div class="card">
 				<img src="./images/light-fest.jpg" class="card-img-top" alt="A collection of strings of lights looks like a web.">
 				<div class="card-body">
@@ -124,7 +124,7 @@
 		<!-- End card 1 -->
 
 		<!-- Card 2 -->
-		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+		<div class="cardContainer col-lg-4 col-md-4 col-sm-12 d-flex align-items-stretch">
 			<div class="card">
 				<img src="./images/personal-project.jpg" class="card-img-top" alt="Two programmers sitting in front of an open laptop">
 				<div class="card-body">
@@ -138,14 +138,14 @@
 		<!-- End card 2 -->
 
 		<!-- Card 3 -->
-		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">	
+		<div class="cardContainer col-lg-4 col-md-4 col-sm-12 d-flex align-items-stretch">	
 		<div class="card">
 				<img src="./images/portfolio-03.jpg" class="card-img-top" alt="A balloon
 				drifts gracefully across a moonlit, starlit sea, casting
 				its shadow on the calm currents beneath.">
 				<div class="card-body">
 					<h5 class="card-title">Upcoming Project</h5>
-					<p class="card-text">"This space is for an upcoming project, and the anticipation is building for the creative journey that lies ahead!🚀</p>
+					<p class="card-text">This space is for an upcoming project, and the anticipation is building for the creative journey that lies ahead! 🚀</p>
 					<a href="https://stackoverflow.com/" target="_blank" class="btn btn-primary">View Project</a>
 				</div>
 			</div>
@@ -220,13 +220,15 @@
     <!-- End content -->
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
 
 			<div class="bottom-container">
 				<a class="footer-link" href="https://www.linkedin.com/" target="_blank" >LinkedIn</a>
 				<a class="footer-link" href="https://twitter.com/" target="_blank">Twitter</a>
 				<a class="footer-link" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Website</a>
-				<p class="copyright">©2023 Francis Gomes-Okoye @ the bootcamp project.</p>
+				<a  class="footer-link" href="#about-me">About</a>
+				<a class="footer-link" href="contact@mail.com">Email</a>
+				<p class="copyright">©2023 Francis Gomes-Okoye @ The Bootcamp Project.</p>
 			</div>
 
     </footer>
