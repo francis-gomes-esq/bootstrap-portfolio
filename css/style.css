@@ -48,7 +48,7 @@ p + p {
 	margin-right: 0 !important;
 }
 
-.avatar {
+.profile-picture {
 	max-width: 200px;
 	position: relative;
 	top: -50px;
@@ -95,7 +95,6 @@ p + p {
 
 .card-image-top {
 	max-width: 100%;
-	height: auto;
 }
 
 .btn-primary {
@@ -132,7 +131,12 @@ footer {
 	line-height: 60px;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	justify-content: space-evenly;
+	justify-content: center;
+}
+
+.footer-link {
+	margin: 10px 20px;
+	text-decoration: none;
 }
 .cardContainer {
 	margin-top: 20px;
