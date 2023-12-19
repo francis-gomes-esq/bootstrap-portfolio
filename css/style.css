@@ -7,6 +7,7 @@ h5,
 h6 {
 	font-family: 'Lato', sans-serif;
 }
+
 p {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -51,14 +52,7 @@ p + p {
 /* Profile Here */
 
 .profile-picture {
-	max-width: 200px;
-	position: relative;
-	top: -90px;
-	cursor: pointer;
-}
-
-.profile-picture:hover {
-	transform: scale(1.1);
+	height: 120px;
 }
 
 /* About Here */
@@ -85,7 +79,6 @@ p + p {
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	height: 700px;
 	font-family: monospace;
 }
 
@@ -171,14 +164,4 @@ p + p {
 .footer-link {
 	margin: 10px 20px;
 	text-decoration: none;
-}
-
-/* Minimum Responsiveness */
-
-@media (max-width: 600px) {
-	/* CSS for screens below or equal to 600px wide */
-	.nav {
-		height: 200px;
-		width: 200px;
-	}
 }
