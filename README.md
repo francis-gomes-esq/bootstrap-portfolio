@@ -35,8 +35,6 @@ You can view the website via this link: https://francis-gomes-esq.github.io/boot
 -   Bootstrap Skills: https://htmlcssfreebies.com/demo/?id=878
 -   Bootstrap List group: https://getbootstrap.com/docs/5.3/components/list-group/
 
-If you followed tutorials, include links to those here as well.
-
 ## License
 
 -   Please refer to the README.md
