@@ -7,6 +7,7 @@ h5,
 h6 {
 	font-family: 'Lato', sans-serif;
 }
+
 p {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -48,20 +49,21 @@ p + p {
 	margin-right: 0 !important;
 }
 
+/* Profile Here */
+
 .profile-picture {
-	max-width: 200px;
-	position: relative;
-	top: -50px;
+	height: 120px;
 }
 
+/* About Here */
 .text-content {
 	margin: 15%;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 1rem;
-	color: white;
+	color: white !important;
 }
 
-/* jumbotron */
+/* jumbotron here  */
 
 .jumbotron {
 	display: flex;
@@ -77,9 +79,10 @@ p + p {
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	height: 700px;
 	font-family: monospace;
 }
+
+/* Card Begin Here */
 
 .project {
 	display: flex;
@@ -87,26 +90,47 @@ p + p {
 	justify-content: center;
 }
 
+.cardContainer {
+	margin-top: 20px;
+}
+.card {
+	margin: 0 auto;
+	background-color: #efe0db;
+}
+
 .card-title {
 	display: flex;
 	justify-content: center;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .card-image-top {
 	max-width: 100%;
 }
 
+/* Button here */
+
 .btn-primary {
-	background-color: rgb(32, 4, 73);
-	border: none;
+	background-color: rgba(63, 2, 6, 0.999);
 	color: white;
-	height: 40px;
-	width: 140px;
-	font-weight: bold;
+	border: none;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 18px;
+	text-align: center;
+	font-weight: 650;
 	font-size: 15px;
-	border-radius: 6px;
 	cursor: pointer;
+	margin-left: 8px;
+	transition: box-shadow 0.15;
+	vertical-align: auto;
+}
+
+.btn-primary:hover {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .content-wrapper {
@@ -115,14 +139,17 @@ p + p {
 	justify-content: space-between;
 }
 
+/* Contact Here*/
+
 #contact {
 	display: flex;
 	justify-content: center;
-	font-weight: bold;
+	font-weight: inherit;
 	margin-top: 1rem;
 }
 
-footer {
+/* Footer*/
+.footer {
 	display: flex;
 	position: absolute;
 	width: 100%;
@@ -137,11 +164,4 @@ footer {
 .footer-link {
 	margin: 10px 20px;
 	text-decoration: none;
-}
-.cardContainer {
-	margin-top: 20px;
-}
-.card {
-	margin: 0 auto;
-	background-color: #efe0db;
 }

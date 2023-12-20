@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+			content="width=device-width, initial-scale=1.0"
 		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +27,7 @@
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/skills.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
 
 		<title>Bootstrap Portfolio</title>
 	</head>
@@ -39,20 +40,9 @@
 				<a class="navbar-brand" href="#"> 
 					
 					
-					<img src="images/omniscient.png" alt="An eye-shaped icon"/>  
+					<img src="./images/ufo.png" alt="An unidetified flying object (UFO) icon"/>  
 					Bootstrap Portfolio</a  
 				> 
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
 				<div
 					class="collapse navbar-collapse"
 					id="navbarSupportedContent"
@@ -88,9 +78,11 @@
 		<!--Hero Section include name /picture / description-->
 <div class="jumbotron">
   <div class="content-wrapper">
-    <img src="./images/francis-01.jpg" alt="A profile picture of a man wearing a white shirt, jumper and a pair of silver headphones" class="profile-picture">
+
     <div class="text-content">
-      <h1 class="display-5 fw-bold">Francis</h1>
+
+      <h1 id="about-me" class="display-5 fw-bold">Francis Gomes-Okoye</h1>			    
+			<img src="./images/francis-01.jpg" alt="A profile picture of a bespectacled man on a conference call. He is wearing a dark jumper on a white shirt and a pair of silver-coloured headphones." class="profile-picture">
       <p class="lead">Front-End Web Developer</p>
       <hr class="my-4">
       <p>Greetings! Step into the realm of creativity and innovation as you explore my digital domain. I'm not just your average web developer—I'm a passionate creator on a mission to transform ideas into visually mesmerising and exceptionally functional websites. Armed with a robust foundation in HTML and CSS and a keen eye for design, I bring a dynamic fusion of technical prowess and aesthetic finesse to every project I undertake.
@@ -104,10 +96,10 @@
 </div>
 <!-- Cards -->
 <div class="container-fluid">
-	<h2 id="projects" class="project">My Projects</h2>
+	<h2 id="projects" class="project"><strong>Projects</strong> </h2>
 	<div class="row">
 		<!-- Card 1 -->
-		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+		<div class="cardContainer col-lg-4 col-md-4 col-sm-12 d-flex align-items-stretch">
 			<div class="card">
 				<img src="./images/light-fest.jpg" class="card-img-top" alt="A collection of strings of lights looks like a web.">
 				<div class="card-body">
@@ -124,7 +116,7 @@
 		<!-- End card 1 -->
 
 		<!-- Card 2 -->
-		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+		<div class="cardContainer col-lg-4 col-md-4 col-sm-12 d-flex align-items-stretch">
 			<div class="card">
 				<img src="./images/personal-project.jpg" class="card-img-top" alt="Two programmers sitting in front of an open laptop">
 				<div class="card-body">
@@ -138,14 +130,14 @@
 		<!-- End card 2 -->
 
 		<!-- Card 3 -->
-		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">	
+		<div class="cardContainer col-lg-4 col-md-4 col-sm-12 d-flex align-items-stretch">	
 		<div class="card">
 				<img src="./images/portfolio-03.jpg" class="card-img-top" alt="A balloon
 				drifts gracefully across a moonlit, starlit sea, casting
 				its shadow on the calm currents beneath.">
 				<div class="card-body">
 					<h5 class="card-title">Upcoming Project</h5>
-					<p class="card-text">"This space is for an upcoming project, and the anticipation is building for the creative journey that lies ahead!🚀</p>
+					<p class="card-text">This space is for an upcoming project, and the anticipation is building for the creative journey that lies ahead! 🚀</p>
 					<a href="https://stackoverflow.com/" target="_blank" class="btn btn-primary">View Project</a>
 				</div>
 			</div>
@@ -155,17 +147,23 @@
 </div>
 <!-- End cards -->
 
-<!-- Skill -->
+<!-- Skills -->
 <section class="bg-light py-5 py-xl-6">
-  <div class="container mb-5 mb-md-6">
+  <div class="container-fluid mb-5 mb-md-6">
+
+		<!-- Title -->
+		
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-        <h2 id="skills" class="mb-4 display-5">Skills</h2>
+        <h2 id="skills" class="mb-4 display-6">Skills</h2>
         <p class="text-secondary mb-4 mb-md-5">Welcome to my web portfolio, where I showcase my expertise in front-end technologies. From crafting clean and semantic HTML to designing visually appealing CSS layouts, I bring a passion for creating user-friendly web experiences. Proficient in dynamic JavaScript scripting and Bootstrap frameworks, I focus on delivering high-quality, accessible solutions. Explore my work, and let's connect to discuss how I can contribute to your next project.</p>
         <hr class="w-50 mx-auto mb-0 text-secondary">
       </div>
     </div>
   </div>
+
+	<!-- End Title -->
+
   <div class="container overflow-hidden">
     <div class="row justify-content-xl-center gy-3 gy-sm-4">
       <div class="col-12 col-sm-6 col-xl-5">
@@ -173,7 +171,7 @@
           <h3 class="fw-bold mb-2">HTML</h3>
           <p class="text-secondary fst-italic mb-4">In HTML, my proficiency lies in crafting meticulously structured and semantic markup, ensuring a robust foundation for web content. I possess a deep understanding of HTML5 features, enabling me to implement modern elements and attributes that enhance overall website functionality. My attention to detail ensures clean, error-free code, fostering accessibility and search engine optimisation.</p>
           <div class="progress">
-            <div class="progress-bar w-85 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Bootstrap" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+            <div class="progress-bar w-85 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="HTML" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
           </div>
         </div>
       </div>
@@ -182,7 +180,7 @@
           <h3 class="fw-bold mb-2">CSS</h3>
           <p class="text-secondary fst-italic mb-4">With CSS, I bring a wealth of experience to creating visually stunning and responsive web pages. My skill set includes expertise in layout design, precise styling, and media query implementation for seamless adaptation across various devices. I am adept at utilising CSS frameworks and preprocessors to streamline development processes and maintain code maintainability.</p>
           <div class="progress">
-            <div class="progress-bar w-75 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="React" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            <div class="progress-bar w-75 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="CSS" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
           </div>
         </div>
       </div>
@@ -191,7 +189,7 @@
           <h3 class="fw-bold mb-2">Bootstrap</h3>
           <p class="text-secondary fst-italic mb-4">Within the Bootstrap framework, I demonstrate a keen ability to leverage its features for the accelerated development of responsive and visually appealing websites. My expertise spans the customisation of Bootstrap components, grid system utilisation, and the integration of JavaScript plugins to create seamless and feature-rich user interfaces. I consistently deliver projects that meet both aesthetic and functional requirements, showcasing a thorough grasp of front-end development principles.</p>
           <div class="progress">
-            <div class="progress-bar w-65 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Vue" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+            <div class="progress-bar w-65 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Bootstrap" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
           </div>
         </div>
       </div>
@@ -200,7 +198,7 @@
           <h3 class="fw-bold mb-2">JavaScript</h3>
           <p class="text-secondary fst-italic mb-4">In JavaScript, I showcase a comprehensive skill set in dynamic client-side scripting. My proficiency extends to proficiently handling events, manipulating the Document Object Model (DOM), and implementing asynchronous operations, resulting in highly interactive and user-friendly web experiences. I stay current with ECMAScript standards, ensuring my code adheres to best practices and remains compatible with modern browsers.</p>
           <div class="progress">
-            <div class="progress-bar w-95 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="WordPress" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+            <div class="progress-bar w-95 progress-bar-striped progress-bar-animated" role="progressbar" aria-label="JavaScript" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
           </div>
         </div>
       </div>
@@ -212,7 +210,7 @@
 
 <!-- Contact -->
 <div>
-	<h3 id="contact">Contact</h3>
+	<h2 id="contact" class="#" >Contact</h2>
 </div>
 
 	<!-- End Contact -->
@@ -220,13 +218,15 @@
     <!-- End content -->
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
 
 			<div class="bottom-container">
 				<a class="footer-link" href="https://www.linkedin.com/" target="_blank" >LinkedIn</a>
 				<a class="footer-link" href="https://twitter.com/" target="_blank">Twitter</a>
-				<a class="footer-link" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Website</a>
-				<p class="copyright">©2023 Francis Gomes-Okoye @ the bootcamp project.</p>
+				<a class="footer-link" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">WebsAite</a>
+				<a  class="footer-link" href="#about-me">About</a>
+				<a class="footer-link" href="https://github.com/">GitHub</a>
+				<p class="copyright">©2023 Francis Gomes-Okoye @ The Bootcamp Project.</p>
 			</div>
 
     </footer>
