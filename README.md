@@ -15,7 +15,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
@@ -25,14 +25,18 @@ You can view the website via this link: https://francis-gomes-esq.github.io/boot
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles. Tutoring session and a discussion with a TA during office hours Collaborated with Jermaine
+-   Tutoring session
+-   Discussion with a TA during office hours
+-   Collaborated with Jermaine
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+### List of third-party assets.
 
-Jumbotron: Bootstrap Skills: https://htmlcssfreebies.com/demo/?id=878 Bootstrap List group: https://getbootstrap.com/docs/5.3/components/list-group/
+-   Jumbotron: 02-Stu-Custom-Webpage/starter/index.html
+-   Bootstrap Skills: https://htmlcssfreebies.com/demo/?id=878
+-   Bootstrap List group: https://getbootstrap.com/docs/5.3/components/list-group/
 
 If you followed tutorials, include links to those here as well.
 
 ## License
 
-## Please refer to the README.md
+-   Please refer to the README.md
