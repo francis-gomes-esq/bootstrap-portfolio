@@ -1,4 +1,4 @@
-# <Unit 3 Challenge: Code Bootstrap Portfolio>
+# Unit 3 Challenge: Code Bootstrap Portfolio
 
 ## Description
 
@@ -19,7 +19,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-You can view the website via this link: [Link to be added]
+You can view the website via this link: https://francis-gomes-esq.github.io/bootstrap-portfolio/
 
 ![alt text](assets/images/about.png) ![alt text](assets/images/projects.png) ![alt text](assets/images/skills.png) ![alt text](assets/images/contact.png)
 
