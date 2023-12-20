@@ -4,9 +4,7 @@
 
 I created this bootstrap porfolio to showcase my learning thus far and to recreate the porfolio created earlier using Flex and/or CSS grid. As I mentioned in the reading of that task, it did not go according to plan due to some technical and health difficulties. However, I have tackled this task, "Bootstrap Portfolio," as best as possible. Both portfolios are works in progress, and I will revisit them to apply the levels of refinement they deserve as I learn more dos and don'ts.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 -   [Installation](#installation)
 -   [Usage](#usage)
