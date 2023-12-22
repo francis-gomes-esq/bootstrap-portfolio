@@ -35,4 +35,4 @@ You can view the website via this link: https://francis-gomes-esq.github.io/boot
 
 ## License
 
--   Please refer to the README.md
+-   Please refer to the repo
