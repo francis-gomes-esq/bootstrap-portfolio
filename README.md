@@ -2,11 +2,9 @@
 
 ## Description
 
-I created this bootstrap porfolio to showcase my learning thus far and to recreate the porfolio created earlier using Flex and/or CSS grid. As I mentioned in the reading of that task, it did not go according to plan due to some technical and health difficulties. However, I have tackled this task, "Bootstrap Portfolio," as best as possible. Both portfolios are works in progress, and I will revisit them to apply the levels of refinement they deserve as I learn more dos and don'ts.
+I used Bootstrap to simplify responsive web design, aiming to enhance user experiences. The project addressed the challenge of consistency across devices, utilising Bootstrap's pre-built components and responsive grid system for efficiency. Through this, I learned to leverage Bootstrap effectively, gaining insights into mobile-first design principles. The experience highlighted the framework's practical application in modern web development, streamlining the design process.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 -   [Installation](#installation)
 -   [Usage](#usage)
@@ -34,9 +32,16 @@ You can view the website via this link: https://francis-gomes-esq.github.io/boot
 -   Jumbotron: 02-Stu-Custom-Webpage/starter/index.html
 -   Bootstrap Skills: https://htmlcssfreebies.com/demo/?id=878
 -   Bootstrap List group: https://getbootstrap.com/docs/5.3/components/list-group/
+<<<<<<< HEAD
 
 If you followed tutorials, include links to those here as well.
 
 ## License
 
 -   Please refer to the README.md
+=======
+
+## License
+
+-   Please refer to the repo
+>>>>>>> 76cd375c23ed3d5ed96a1ffc6db8e28018defb29
